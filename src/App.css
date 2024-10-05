@@ -1,0 +1,38 @@
+.game-board {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-board-message{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+
+.place {
+  border-radius: 8px;
+  border: 2px solid #414141;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all ease-in-out 0.25s;
+}
+
+.placeSelected {
+ border-color:  blue;
+}
+
+.incorrectMatch {
+  border-color: red;
+}
+
+.correctMatch {
+  border-color: green;
+}
